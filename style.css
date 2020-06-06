@@ -1,0 +1,75 @@
+body {   background-color: #000033;
+               
+    background-size: cover;
+    color: white;
+   
+    }
+    form {
+        line-height: 190%;
+     text-align:    left;
+    }
+table { position: absolute;
+place-content:0px;color: antiquewhite;
+
+
+}
+
+.verseoftheday{ align-items: center;
+display: flex;flex-direction: row;}
+a{
+    color: antiquewhite;
+}
+
+
+div { position: absolute;
+right:0px;
+padding-right: 30px;
+margin-inline-start: auto;}
+
+pre {  text-align: right; color: turquoise; font-family: 'Gill Sans';}
+  
+
+
+@media only screen and (max-width:1360px){
+    .contact-div{
+    flex-direction: column;
+    justify-content: center;
+    }
+    .contact-div-text{
+    /* width: 100%; */
+    text-align: center;
+    margin-top: 40px;
+    }
+    /* .img-div{
+        border: 1px solid firebrick;
+    } */
+}
+
+
+@media only screen and (max-width:660px){
+
+    /* .nav-items-div{
+        display: none;
+    }
+    .sidebar-div{
+        display: flex;
+    } */
+    .contact-div-text{
+        border: 1px solid red;
+    } 
+    .img-div{
+        border: 1px solid firebrick;
+    }
+           
+
+header {
+   display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+    
+
+
+
+ h3{ text-align: center;}
+
